@@ -1,0 +1,52 @@
+
+.row
+{
+     margin:auto
+}
+.my-col
+{
+ padding:10px;
+ box-shadow: 5px 5px 5px #aaaaaa;
+}
+.my-fig
+{
+ padding:25px;
+ box-shadow: 10px 10px 5px #aaaaaa;
+}
+.card {
+margin: 0 auto; 
+float: none; 
+margin-bottom: 10px; 
+}
+.asshole
+{
+ font-family: 'Lato', sans-serif;
+ font-size:30px;
+ font-weight: 300;
+}
+
+@media screen and (min-width: 768px)
+ {
+     .my-col 
+     {
+          padding:30px;
+     }
+     .my-fig
+     {
+          padding:60px;
+     }
+     .my-card
+     {
+          width:400px;
+          height:auto;    
+     }
+     .asshole
+     {
+          font-size:50px;
+     }
+     .image-1
+     {
+          height:300px;
+          width:auto;
+     }
+}
